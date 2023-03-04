@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head>
         <title>Just doing things</title>
@@ -13,4 +13,76 @@
 Just some text
 </body>
 
+</html> -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <style>
+      /* Define the styles for the navigation bar */
+      #navbar {
+        width: 200px;
+        height: 100%;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      #navbar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      #navbar li {
+        padding: 10px;
+        border-bottom: 1px solid #222;
+      }
+      #navbar li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      #navbar li.active {
+        background-color: #444;
+      }
+
+      /* Define the styles for the header */
+      #header {
+        background-image: url('header.jpg');
+        background-size: cover;
+        height: 400px;
+        position: relative;
+        margin-left: 200px; /* Make room for the navigation bar */
+      }
+      #header h1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 20px;
+        color: #fff;
+        text-shadow: 1px 1px #000;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The navigation bar -->
+    <div id="navbar">
+      <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- The header -->
+    <div id="header">
+      <h1>Welcome to my website</h1>
+    </div>
+
+    <!-- The main content -->
+    <div id="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor neque auctor enim sagittis, sit amet mollis urna lobortis. Pellentesque bibendum vel est nec iaculis. Nam in sapien pulvinar, auctor leo eu, lobortis augue. Aliquam erat volutpat. Fusce et consequat risus. Donec sagittis turpis velit, a egestas leo bibendum sit amet. Nunc lacinia, magna quis eleifend scelerisque, odio justo eleifend magna, vel consequat metus purus a mauris.</p>
+    </div>
+  </body>
 </html>
+
